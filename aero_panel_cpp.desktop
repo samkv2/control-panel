@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Aero Control Panel
+Comment=System Control Panel with Aero Design
+Exec=aero_panel_cpp
+Icon=aero_panel_cpp
+Terminal=false
+Categories=System;Settings;
+Keywords=system;control;panel;aero;
+StartupNotify=true

@@ -1,0 +1,16 @@
+
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>aero.qss</file>
+    <file>icons/shield.svg</file>
+    <file>app_icon.png</file>
+    <file>icons/programs.svg</file>
+    <file>icons/user.svg</file>
+    <file>icons/settings.svg</file>
+    <file>icons/startup.svg</file>
+    <file>dark.qss</file>
+    <file>retro.qss</file>
+    <file>neumorphic.qss</file>
+    <file>aurorae.qss</file>
+</qresource>
+</RCC>

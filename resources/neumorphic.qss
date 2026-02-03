@@ -1,0 +1,82 @@
+
+/* Neumorphic Theme */
+QMainWindow {
+    background-color: #e0e5ec;
+}
+
+QWidget {
+    color: #202020;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Sidebar */
+QWidget#Sidebar {
+    background-color: #e0e5ec;
+}
+
+QLabel#SidebarTitle {
+    font-weight: bold;
+    color: #607d8b;
+    padding-bottom: 10px;
+}
+
+QPushButton#CategoryButton, QTableView, QListWidget {
+    background-color: #e0e5ec;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    color: #202020;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #e0e5ec;
+    color: #4a4a4a;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: 1px solid #d1d9e6;
+    /* In actual CSS box-shadow works, here we rely on colors */
+}
+QPushButton:hover {
+    background-color: #eef2f9;
+}
+QPushButton:pressed {
+    background-color: #d1d9e6;
+}
+
+/* Inputs */
+QLineEdit {
+    background-color: #e0e5ec;
+    border: 1px solid #a3b1c6;
+    border-radius: 4px;
+    padding: 6px;
+    color: #4a4a4a;
+    /* Inner shadow simulation via border color */
+}
+
+/* Sidebar */
+QWidget#Sidebar {
+    background-color: #e0e5ec;
+}
+QPushButton#SidebarButton {
+    background: transparent;
+    border: none;
+    color: #607d8b;
+    font-weight: 600;
+}
+QPushButton#SidebarButton:checked {
+    color: #3b3b3b;
+    border-left: 3px solid #607d8b;
+}
+
+/* Progress Bar */
+QProgressBar {
+    background-color: #e0e5ec;
+    border-radius: 6px;
+    border: 1px solid #d1d9e6;
+    text-align: center;
+    color: #4a4a4a;
+}
+QProgressBar::chunk {
+    background-color: #607d8b;
+    border-radius: 4px;
+}

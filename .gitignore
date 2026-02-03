@@ -1,0 +1,24 @@
+# CMake
+build/
+cmake-build-debug/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+*.deb
+*.rpm
+*.tar.gz
+_CPack_Packages/
+CPackConfig.cmake
+CPackSourceConfig.cmake
+
+# Qt
+*.user
+*.qrc.cpp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~

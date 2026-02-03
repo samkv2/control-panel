@@ -1,0 +1,178 @@
+/* Dark Theme (Soft Midnight) */
+
+QMainWindow, QWidget#CentralWidget {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #1E1E1E, stop:1 #252526);
+}
+
+/* Headings & Text */
+QLabel {
+    color: #E0E0E0;
+    font-family: "Segoe UI", sans-serif;
+}
+
+QLabel#HeaderLabel {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/* TOP BAR */
+QWidget#TopBar {
+    background-color: rgba(30, 30, 30, 0.95);
+    border-bottom: 1px solid #333333;
+}
+
+QPushButton#BackButton {
+    color: #4CC2FF;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+}
+QPushButton#BackButton:hover {
+    color: #7AD6FF;
+}
+
+/* HOME PAGE CARDS */
+QPushButton#CategoryButton {
+    background-color: #2D2D30;
+    border: 1px solid #3E3E42;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+    color: #FFFFFF;
+    border-bottom: 2px solid #1E1E1E;
+}
+
+QPushButton#CategoryButton:hover {
+    background-color: #3E3E42;
+    border: 1px solid #4CC2FF;
+    border-bottom: 2px solid #0078D4;
+}
+
+QPushButton#CategoryButton QLabel {
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+}
+
+/* SYSTEM PAGE CARDS */
+QFrame#InfoCard {
+    background-color: #252526;
+    border: 1px solid #333337;
+    border-radius: 12px;
+}
+
+/* SCROLL AREA */
+QScrollArea {
+    border: none;
+    background: transparent;
+}
+
+/* CONTROLS (Common) */
+QPushButton {
+    background-color: #333333;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    padding: 5px 12px;
+    color: #E0E0E0;
+}
+QPushButton:hover {
+    background-color: #3E3E40;
+    border-color: #4CC2FF;
+    color: #FFFFFF;
+}
+
+/* DIALOGS (User Creation) */
+QDialog#UserDialog {
+    background-color: #252526; /* Dark background */
+    border: 1px solid #3E3E42;
+}
+
+QLabel#DialogLabel {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+QLineEdit#DialogInput {
+    padding: 8px;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    background: #2D2D30;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+QLineEdit#DialogInput:focus {
+    border: 1px solid #4CC2FF;
+}
+
+QCheckBox#DialogCheck {
+    font-size: 14px;
+    color: #FFFFFF;
+    spacing: 5px;
+}
+
+/* PROGRAMS PAGE SPECIFIC */
+QLineEdit#SearchBox {
+    padding: 6px;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    background: #2D2D30;
+    color: #E0E0E0;
+}
+
+QCheckBox {
+    color: #E0E0E0;
+    spacing: 5px;
+}
+QCheckBox::indicator {
+    border: 1px solid #555555;
+    background: #2D2D30;
+}
+QCheckBox::indicator:checked {
+    background: #4CC2FF;
+    border: 1px solid #4CC2FF;
+}
+
+/* USER LIST PAGE */
+QListWidget#UserList {
+    background-color: #252526;
+    border: 1px solid #3E3E42;
+    border-radius: 4px;
+    color: #E0E0E0;
+    font-size: 14px;
+}
+QListWidget#UserList::item {
+    padding: 10px;
+    border-bottom: 1px solid #333333;
+}
+QListWidget#UserList::item:selected {
+    background-color: #3E3E42;
+    color: #FFFFFF;
+    border: 1px solid #4CC2FF; /* Highlight selection */
+}
+
+QPushButton#ActionBtn {
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+/* TABLE VIEW (Programs) */
+QHeaderView::section {
+    background-color: #2D2D30;
+    padding: 4px;
+    border: 1px solid #3E3E42;
+    color: #E0E0E0;
+}
+
+QTableView {
+    background-color: #252526;
+    alternate-background-color: #2D2D30;
+    gridline-color: #3E3E42;
+    color: #E0E0E0;
+    border: 1px solid #3E3E42;
+}
+QTableView::item:selected {
+    background-color: #0078D4;
+    color: #FFFFFF;
+}

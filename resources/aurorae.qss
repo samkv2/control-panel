@@ -1,0 +1,84 @@
+
+/* Aurorae Theme (Vibrant) */
+QMainWindow {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #10002b, stop:1 #240046);
+}
+
+QWidget {
+    color: #ffffff;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Sidebar */
+QWidget#Sidebar {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-right: 1px solid #7b2cbf;
+}
+
+QLabel#SidebarTitle {
+    font-weight: bold;
+    color: #e0aaff;
+    padding-bottom: 10px;
+}
+
+QPushButton#SidebarButton {
+    background: transparent;
+    color: #e0aaff;
+    border: none;
+    text-align: left;
+    padding: 10px;
+}
+QPushButton#SidebarButton:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+QPushButton#SidebarButton:checked {
+    color: #ffffff;
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #7b2cbf, stop:1 #9d4edd);
+    border-radius: 4px;
+}
+
+/* Buttons */
+QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #3c096c, stop:1 #5a189a);
+    color: white;
+    border: 1px solid #7b2cbf;
+    border-radius: 6px;
+    padding: 8px;
+}
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #5a189a, stop:1 #7b2cbf);
+}
+
+/* Tables */
+QTableView {
+    background-color: rgba(16, 0, 43, 0.6);
+    color: #e0aaff;
+    border: 1px solid #3c096c;
+    gridline-color: #3c096c;
+}
+QHeaderView::section {
+    background-color: #240046;
+    color: white;
+    border: 1px solid #3c096c;
+}
+
+/* Inputs */
+QLineEdit {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid #5a189a;
+    color: white;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+/* Progress Bar */
+QProgressBar {
+    background-color: rgba(0,0,0,0.3);
+    border: 1px solid #5a189a;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}
+QProgressBar::chunk {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #ff0054, stop:1 #ff5400);
+}

@@ -1,0 +1,17 @@
+
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4e8ec6"/>
+      <stop offset="50%" stop-color="#2a66a1"/>
+      <stop offset="100%" stop-color="#194876"/>
+    </linearGradient>
+    <linearGradient id="shieldSheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="white" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M24 2 L42 8 V20 C42 32 34 42 24 46 C14 42 6 32 6 20 V8 L24 2 Z" fill="url(#shieldGrad)" stroke="#133658" stroke-width="1"/>
+  <path d="M24 4 L38 9 V19 C38 29 32 38 24 42 C16 38 10 29 10 19 V9 L24 4 Z" fill="url(#shieldSheen)"/>
+  <path d="M24 14 L28 22 L36 22 L30 28 L32 36 L24 32 L16 36 L18 28 L12 22 L20 22 Z" fill="#FFD700" stroke="#B8860B" stroke-width="0.5"/>
+</svg>

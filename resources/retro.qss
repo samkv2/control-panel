@@ -1,0 +1,85 @@
+
+/* Retro (Windows 95) Theme */
+QMainWindow {
+    background-color: #c0c0c0;
+}
+
+QWidget {
+    color: black;
+    font-family: "MS Sans Serif", "Sans Serif";
+}
+
+/* Sidebar */
+QWidget#Sidebar {
+    background-color: #c0c0c0;
+    border-right: 2px solid;
+    border-color: #808080 #ffffff #ffffff #808080;
+}
+
+QLabel#SidebarTitle {
+    font-weight: bold;
+    color: black;
+    padding-bottom: 10px;
+}
+
+QPushButton#SidebarButton {
+    text-align: left;
+    padding: 8px;
+    background-color: #c0c0c0;
+    border: 2px solid;
+    border-color: #ffffff #808080 #808080 #ffffff;
+    color: black;
+    margin-bottom: 2px;
+}
+QPushButton#SidebarButton:checked {
+    border-color: #808080 #ffffff #ffffff #808080;
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+
+/* Tables */
+QTableView {
+    background-color: white;
+    color: black;
+    border: 2px solid;
+    border-color: #808080 #ffffff #ffffff #808080; /* Sunken */
+}
+QHeaderView::section {
+    background-color: #c0c0c0;
+    border: 2px solid;
+    border-color: #ffffff #808080 #808080 #ffffff; /* Raised */
+    padding: 4px;
+}
+
+/* Inputs */
+QLineEdit {
+    background-color: white;
+    color: black;
+    border: 2px solid;
+    border-color: #808080 #ffffff #ffffff #808080;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #c0c0c0;
+    color: black;
+    border: 2px solid;
+    border-color: #ffffff #808080 #808080 #ffffff;
+    padding: 4px 8px;
+}
+QPushButton:pressed {
+    border-color: #808080 #ffffff #ffffff #808080;
+}
+
+/* Progress Bar */
+QProgressBar {
+    border: 2px solid;
+    border-color: #808080 #ffffff #ffffff #808080;
+    background-color: white;
+    text-align: center;
+}
+QProgressBar::chunk {
+    background-color: #000080;
+    width: 10px;
+    margin: 1px;
+}
