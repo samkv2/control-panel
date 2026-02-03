@@ -1,5 +1,7 @@
 # Aero Control Panel - Installation Guide
 
+![Aero Control Panel Preview](img.png)
+
 Aero Control Panel is a modern, Qt-based system configuration tool for Linux, featuring a glassmorphic design and comprehensive system management capabilities.
 
 ## Prerequisites
